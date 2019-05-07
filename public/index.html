@@ -22,7 +22,18 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>React/Polymer App</title>
+
+    <script src="http://bam-dit.oneadp.com/build/es5prod/Polymer3/common/polyfill.bundle.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="http://bam-dit.oneadp.com/css/bam.css"/>
+
+    <script>
+      define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/common/adp-styles.js']);
+      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-tile/1.0.0/adp-tile.js']);
+      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-span/1.0.0/adp-span.js']);
+      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-button/1.0.0/adp-button.js']);
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>

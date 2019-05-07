@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import {PolymerTest} from './PolymerTest.js'
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -19,6 +21,9 @@ class App extends Component {
           >
             Learn React
           </a>
+          <div id="polymerDiv">
+            <PolymerTest/>
+          </div>
         </header>
       </div>
     );
