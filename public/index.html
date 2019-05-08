@@ -24,16 +24,21 @@
     -->
     <title>React/Polymer App</title>
 
-    <script src="http://bam-dit.oneadp.com/build/es5prod/Polymer3/common/polyfill.bundle.js"></script>
+    <!--
+    <script src="http://bam-dit.oneadp.com/build/es6prod/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    -->
+
+    <script src="http://bam-dit.oneadp.com/build/es6prod/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="http://bam-dit.oneadp.com/build/es6prod/Polymer3/common/polyfill.temp.js"></script>
 
     <link rel="stylesheet" type="text/css" href="http://bam-dit.oneadp.com/css/bam.css"/>
 
     <script>
-      define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/common/adp-styles.js']);
-      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-tile/1.0.0/adp-tile.js']);
-      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-span/1.0.0/adp-span.js']);
-      //define(['http://bam-dit.oneadp.com/build/es5prod/Polymer3/adp-button/1.0.0/adp-button.js']);
+      define(['http://bam-dit.oneadp.com/build/es6prod/Polymer3/adp-tile/1.0.0/adp-tile.js']);
+      define(['http://bam-dit.oneadp.com/build/es6prod/Polymer3/adp-span/1.0.0/adp-span.js']);
+      define(['http://bam-dit.oneadp.com/build/es6prod/Polymer3/adp-button/1.0.0/adp-button.js']);
     </script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
