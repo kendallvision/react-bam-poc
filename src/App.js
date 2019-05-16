@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {PolymerTest} from './PolymerTest.js'
+import {WorkflowSummaryTest} from './WorkflowSummaryTest.js'
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,7 +22,7 @@ class App extends Component {
             Learn React
           </a>
           <div id="polymerDiv">
-            <PolymerTest/>
+            <WorkflowSummaryTest/>
           </div>
         </header>
       </div>
