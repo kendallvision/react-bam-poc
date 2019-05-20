@@ -24,7 +24,6 @@ export class WorkflowSummaryTest extends Component {
         const appKey = "CEH";
         const companyCode = 'zzz';
 
-
         customElements.whenDefined(security.localName).then(function() {
           security.addEventListener('bam-security-authenticated', function(e) {
             workflowSummary.token = e.detail.token;
