@@ -27,7 +27,6 @@ export class WorkflowSummaryTest extends Component {
         customElements.whenDefined(security.localName).then(function() {
           security.addEventListener('bam-security-authenticated', function(e) {
             workflowSummary.token = e.detail.token;
-            workflowSummary.taskOptions = [{'name': 'Legal Name Change', 'value': 'Legal Name Change'}];
             workflowSummary.region = currentRegion;
             workflowSummary.companyCode = companyCode;
 
